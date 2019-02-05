@@ -155,7 +155,7 @@ if __name__ == '__main__':
 
   # must open file to rewrite it
   if args.stdout:
-    print "\n".join(output)
+    print("\n".join(output))
   else:
     with open(args.file, "w") as fh:
       fh.write("\n".join(output))
